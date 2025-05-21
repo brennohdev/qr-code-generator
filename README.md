@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# QR Code Generator
 
-## Getting Started
+Este projeto é uma aplicação web para geração de QR Codes personalizados, desenvolvida com React, Next.js e TypeScript. A ferramenta permite ao usuário criar QR Codes dinâmicos, com suporte a customização de cores, inserção de logotipo e download da imagem gerada.
 
-First, run the development server:
+## Funcionalidades
+
+- Geração de QR Code a partir de links personalizados
+- Seleção de cor principal e cor de fundo do QR Code
+- Upload de logotipo personalizado com ajuste de tamanho
+- Visualização em tempo real das alterações feitas
+- Download do QR Code gerado no formato PNG
+
+## Demonstração
+
+Acesse a versão online:  
+[https://qr-code-generator.vercel.app](https://qr-code-generator.vercel.app)
+
+## Tecnologias Utilizadas
+
+- [React](https://reactjs.org/)
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [qrcode.react](https://github.com/zpao/qrcode.react)
+- [React Icons](https://react-icons.github.io/react-icons/)
+
+## Instalação e Uso
+
+Para rodar o projeto localmente, siga os passos abaixo:
 
 ```bash
+# Clone o repositório
+git clone https://github.com/Larissakich/qr-code-generator.git
+
+# Acesse o diretório do projeto
+cd qr-code-generator
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Após isso, abra [http://localhost:3000](http://localhost:3000) no navegador para acessar a aplicação.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Autora
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Projeto desenvolvido por [Larissa Kich](https://github.com/Larissakich)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Licença
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Este projeto está licenciado sob a licença [MIT](LICENSE).
